@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar */
+
+.top {
+  /* padding: 30px; */
+  background-color: #333333;
+  overflow: auto;
+}
+
+.LOGO {
+  padding: 30px 200px;
+  color: white;
+  float: left;
+  line-height: 16px;
+}
+
+.head-top li {
+  list-style: none;
+}
+
+.lt {
+  float: right;
+  color: white;
+  padding: 30px;
+  text-decoration: none;
+  line-height: 16px;
+}
+
+.contact:first-child {
+  margin-right: 225px;
+}
+
+.lt:hover {
+  color: #f7c08a;
+  background-color: #444;
+}
+
+.li-head.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* cart */
+
+.cart {
+  height: 600px;
+  overflow: hidden;
+}
+
+.cart {
+  height: 600px;
+  background: url(../img/showcase.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.cart-text {
+  width: 600px;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.cart-head {
+  font-size: 60px;
+  line-height: 1.2em;
+  color: white;
+  padding-bottom: 23px;
+}
+
+.sp-cart {
+  color: #f7c08a;
+}
+
+.cart-para {
+  color: white;
+  padding-bottom: 23px;
+  font-size: 20px;
+}
+
+.cart-btn {
+  background-color: #333333;
+  color: white;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+}
+
+/* about */
+.about {
+  height: 80vh;
+  width: 100%;
+}
+
+.abt-img {
+  width: 50%;
+  float: left;
+}
+
+.photo2 {
+  width: 100%;
+  display: block;
+  height: 80vh;
+}
+
+.abt-txt {
+  background-color: #333;
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 100px 100px;
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+.abt-head {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.sp-abt {
+  color: #f7c08a;
+}
+
+.abt-para {
+  color: white;
+  padding-bottom: 30px;
+  line-height: 1.7em;
+}
+
+.abt-btn {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+}
+
+.abt-btn:hover {
+  cursor: pointer;
+}
+
+/* items */
+.items {
+  width: 100%;
+}
+
+.item1,
+.item2,
+.item3 {
+  display: inline-block;
+  height: 40vh;
+  width: 33.1%;
+  box-sizing: border-box;
+}
+
+.itext {
+  padding: 70px 100px;
+  text-align: center;
+}
+
+.item2 {
+  background-color: #f7c08a;
+}
+
+.fa-solid{
+   font-size: 36px;
+   padding-bottom: 15px;
+   color: #333;
+}
+
+.ihead{
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* footer */
+.foot{
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+.footp{
+  text-align: center;
+}

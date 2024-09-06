@@ -1,0 +1,68 @@
+/* home */
+
+/* navbar */
+@media (max-width: 993px) {
+  .top {
+    overflow: hidden;
+  }
+
+  .LOGO {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .head-top {
+    text-align: center;
+  }
+
+  .head-top li {
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .lt {
+    float: none;
+    padding: 15px;
+    display: block;
+  }
+
+  .contact:first-child {
+    margin-right: 0;
+  }
+}
+
+
+/* cart */
+@media(max-width: 598px){
+  .cart-text{
+    width: auto;
+  }
+  .cart-para{
+    text-wrap: wrap;
+    word-wrap: wrap;
+  }
+}
+
+/* about */
+@media(max-width: 1089px){
+  .abt-txt{
+    padding: 50px;
+  }
+}
+
+@media(max-width: 780px){
+  .abt-img{
+    float: none;
+    width: 100%;
+
+  }
+  .abt-txt{
+    float: none;
+    width: 100%;
+    overflow: auto;
+  }
+  
+}

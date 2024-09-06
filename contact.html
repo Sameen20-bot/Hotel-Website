@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="top">
+      <nav class="head-top">
+        <h1 class="LOGO li-head">HBT</h1>
+        <li>
+          <a href="contact.html" class="li-head lt contact current">Contact</a>
+        </li>
+        <li><a href="about.html" class="li-head lt">About</a></li>
+        <li><a href="index.html" class="li-head lt">Home</a></li>
+      </nav>
+    </header>
+
+    <!-- form -->
+    <section class="forms">
+      <div class="form-content">
+        <div class="form-txt">
+          <h1 class="form-head"><span class="span-form">Contact</span> Us</h1>
+          <p class="form-para">Please fill out the form below to contact us</p>
+        </div>
+        <form action="php">
+          <div class="text-field">
+            <div class="txt labl">
+              <label for="txt-f lbl">Name</label>
+            </div>
+            <input class="inp" type="text" name="txt" id="txt-f" />
+          </div>
+          <div class="email-field">
+            <div class="eml labl">
+              <label for="eml-f lbl">Email</label>
+            </div>
+            <input class="inp" type="email" name="eml" id="eml-f" />
+          </div>
+          <div class="msg-field">
+            <div class="msg labl">
+              <label for="msg-f lbl">Message</label>
+            </div>
+            <textarea
+              class="inp-area"
+              name="msg"
+              id="msg-f"
+              cols="91"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="btn-form">
+            <button type="submit" class="sub">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- items -->
+    <section class="items">
+      <div class="item1">
+        <div class="itext">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <h3 class="ihead">Location</h3>
+          <p class="p1">50 Main st, Boston MA</p>
+        </div>
+      </div>
+      <div class="item2">
+        <div class="itext">
+          <i class="fa-solid fa-phone"></i>
+          <h3 class="ihead">Phone Number</h3>
+          <p class="p2">(617) 555-5555</p>
+        </div>
+      </div>
+      <div class="item3">
+        <div class="itext">
+          <i class="fa-solid fa-envelope"></i>
+          <h3 class="ihead">Email Address</h3>
+          <p class="p3">frontdesk@hotelbt.co</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p class="footp">Hotel BT &copy; 2019, All RIghts Reserved</p>
+    </footer>
+  </body>
+</html>
